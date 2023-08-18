@@ -1,0 +1,20 @@
+package Org.open.number;
+
+public class Number {
+
+	public static void main(String[] args) {
+		if(false) {
+		System.out.println(1);
+		System.out.println(1);
+		System.out.println(1);
+		}	
+		else {
+		System.out.println(3);
+		
+		}
+	
+		
+		
+	}
+
+}
