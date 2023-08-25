@@ -1,36 +1,22 @@
 package Org.open.number;
 
 public class Number {
-	public static void numbering(int left, int right) {
-	System.out.println(left + right);
+	static int  i=1;
+	static void a() {
+		 i = 0;
 	}
-	public static void main(String[] args) {
+
 	
-		int left, right;
+	public static void main(String[] args) {
+		for(i=0;i<5;i++) {
+			a();
+			System.out.println(i);
+		}
+	
 		
-		left = 10;
-		right = 30;
-		
-		numbering(left, right);
-		
-		left = 30;
-		right = 40;
-		
-		numbering(left,right);
-		
-       
-       }
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		   
+      
+	}
 		
 		}	
 		
