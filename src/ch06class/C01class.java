@@ -20,6 +20,7 @@ class MyClass01 {
     int age;
 
     String name;
+    Sting address;
     //instance methods
     //인스턴스가 가져야하는
 }
