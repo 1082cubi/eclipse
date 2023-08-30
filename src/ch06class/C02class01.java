@@ -9,7 +9,8 @@ public class C02class01 {
         System.out.println("o1.name = " + o1.name);
     }
 
-    public static void method1(MyClass02 p) {
+    public static void method1(MyClass02  p) {
+
         p.name = "java";
     }
 }
