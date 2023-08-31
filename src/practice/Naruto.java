@@ -2,21 +2,19 @@ package practice;
 
 public class Naruto {
     public static void main(String[] args) {
-    C a =new C(10, 20);
-
-
+        A a = new A();
+        int num = a.g(4,2);
+        System.out.println(num);
     }
-}
-class C {
-    int a,b;
-
-    C(int a, int b ) {
-        this.a=a;
-        this.b=b;
-        System.out.println(a);
-        System.out.println(b);
     }
-    void sum() {
+class A {
+    int g (int a, int d) {
+        int num = 0;
+        if (a>d) {
+            num = a;
+        } else
+            num = d;
+        return num;
 
     }
 }
