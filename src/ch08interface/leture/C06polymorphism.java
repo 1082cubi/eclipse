@@ -3,10 +3,11 @@ package ch08interface.leture;
 public class C06polymorphism {
     public static void main(String[] args) {
         Hero o1 = new Hero();
+        Weapon o3 = new Bow();
         o1.seWeapon(new Gun());
         o1.attack();
 
-        o1.seWeapon(new Bow());
+        o1.seWeapon(o3);
         System.out.println("게임 종료");
 
 
@@ -23,7 +24,7 @@ class Hero{
     }
 }
 
-interface Weapon {
+abstract interface Weapon {
     void trigger();
 }
 class Gun implements Weapon {
