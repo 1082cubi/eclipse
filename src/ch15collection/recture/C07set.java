@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class C07set {
     public static void main(String[] args) {
-        //set : 객체(item, elemet, 원소, 요소)를 답고 있는 객체
+        //set : 객체(item, elemet, 원소, 요소)를 담고 있는 객체
         //특징 : 중복된 element를 저장하지 않는다.
 
         Set<String> set1 = new HashSet();
@@ -35,8 +35,7 @@ public class C07set {
         System.out.println(set1.size());
         // of : 새로운 수정불가 set 객체 만듬
         Set<String> set2 = Set.of("css", "react", "html");
-        set2.add("java"); // exception
-        //전체탐색
+        set2.add("java"); // exception  //전체탐색
         //향상된 for
         System.out.println("향상된 for 사용해서 전체탐색");
         for (String str : set2) {
